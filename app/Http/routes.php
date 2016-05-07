@@ -18,4 +18,5 @@ Route::get('/', function () {
 Route::get('index', 'Index\HomeController@index')->name('index');
 Route::get('admin', 'Admin\IndexController@index')->name('admin');
 Route::get('article', 'Admin\ArticleController@index');
+Route::get('db', 'IndexController@index');
 
